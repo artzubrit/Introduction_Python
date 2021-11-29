@@ -1,0 +1,8 @@
+x=int(input("Введите целое 4-х значное число: "))
+first_number, res_1=divmod(x,1000)
+second_number, res_2=divmod(res_1,100)
+third_number, fourth_number=divmod(res_2,10)
+print(first_number)
+print(second_number)
+print(third_number)
+print(fourth_number)

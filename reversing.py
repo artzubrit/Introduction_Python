@@ -1,0 +1,6 @@
+x=int(input("Введите целое 5-значное число: "))
+res_1, first_number = divmod(x,10)
+res_2, second_number = divmod(res_1,10)
+res_3, third_number = divmod(res_2,10)
+fifth_number, fourth_number=divmod(res_3,10)
+print(first_number*10000+second_number*1000+third_number*100+fourth_number*10+fifth_number)
